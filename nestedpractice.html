@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head><title>NESTED LAYOUTS</title></head>
+    <body>
+        <section style="border:2px solid rgb(7, 7, 7);height: 1000px; ;">
+           <div style="height: 250px; ; display:flex ;">
+               <div style="flex:1;" ><img src="./350cc.jpg" width="100%" height="250px"/></div>
+               <div style="flex:3; background-color: black;"><img src="./meteor-logo.png" height="250px"></div>
+           </div>
+           <div style="border: 2px  solid rgba(36, 33, 33, 0.253); height: 50px; ; background-color: rgba(36, 33, 33, 0.253);">
+             <ul style="display:flex ;">
+                 <li style="flex:1 ;"><a href="#">Motorcycles</a></li>
+                 <li style="flex:1 ;"><a href="#">Service</a></li>
+                 <li style="flex:1 ;"><a href="#">locate us</a></li>
+                 <li style="flex:1 ;"><a href="#">Accessories</a></li>
+                 <li style="flex:1 ;"><a href="#">Support</a></li>
+             </ul>
+           </div>
+           <main style="display: flex; height: 250px; border: 1px solid darkgray; background-color: darkgray;">
+               <div style="flex:1 ;">
+                  <ul>
+                      <li><a href="#" style="color: yellow;">History</a></li> <br/> <br/>
+                      <li><a href="#" style="color: yellow;">Enfield</a></li> <br/> <br/>
+                      <li><a href="#" style="color: yellow;">Products</a></li> <br/> <br/>
+                      <li><a href="#" style="color: yellow;">250 cc models</a></li> <br/> <br/>
+                      <li><a href="#" style="color: yellow;">see also</a></li> <br/> <br/>
+                  </ul>
+               </div>
+               <div style="flex:2 ;"> <video controls width="100%" height="100%"><source src="./multimedia/Royal-Enfield-Classic-350-Cinematic-shots-_-30-Sec-status-video-__-Ayaaz-Ahmed720P_60FPS.mp4" type="video/mp4"/></video> </div>
+               <div style="flex:3 ; display:flex ; ">
+                 <div style="flex:1 ;">3.1</div>
+                 <div style="flex:1 ;">3.2
+                    <h1 style="text-align: center; color: chocolate;">Book your test ride</h1>
+                    <fieldset>
+                        <legend style="color: darkblue;">Details</legend>
+                        <label> Name
+                                <input type="text" name="customer-name" required>    
+                            </label> <br/> <br/>
+        
+                            <label> Mobile
+                                <input type="tel" name="mobile number" required>
+                            </label> <br/> <br/>
+        
+                            <label> Email
+                                <input type="email" name="email" required>
+                            </label> <br/>
+                            <label><button>Confirm</button></label>
+                            <label><input type="reset"></label>
+                    </fieldset></div>
+                </div>
+                 <div style="flex:1 ;">3.3</div>
+               </div>
+           </main>
+           <footer style="height: 445px; ;"><img src="./multimedia/royal-enfield-classic-350.webp" height="100%" width="100%"/></footer>
+        </section>
+    </body>
+</html>

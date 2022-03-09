@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head> <title>Ticket Booking</title>
+    <body>
+        <img src="./images.jpg" alt="movie ticket booking" />
+         <form method="POST">
+            <h1 bold style="color: darkred;">Fill the details</h1>
+            <fieldset>
+                <legend style="color: darkblue;">Details</legend>
+                    <label>Name : <input type="text" name="customer name" required/></label> <br/> <br/>
+                    <label>Mobile : <input type="text" name="mobile" required/></label> <br/> <br/>
+                    <label>Email id : <input type="text" name="email id" required/></label> <br/> <br/>
+            </fieldset>
+            
+            <fieldset>
+                <legend style="color: darkblue;">Select the movie</legend>
+                <label><input type="radio" name="movie" required value="Bheemla nayak"/> Bheemla nayak</label> <br/> <br/>
+                <lable><input type="radio" name="movie" required balue="RRR"/> RRR </lable> <br/> <br/>
+                <label><input type="radio" name="movie" required value="radhae shyam"> Radhae shyam</label>
+            </fieldset>
+  
+            <fieldset>
+                <legend style="color: darkblue;">How many seats?</legend>
+                <label><input type="checkbox" name="seats" required value="2 seats"> 2Seats </label> <br/> <br/>
+                <label><input type="checkbox" name="seats" required value="3seats"> 3Seats </label> <br/> <br/>
+                <label><input type="checkbox" name="seats" required value="4seats"> 4seats</label>
+            </fieldset> <br/>
+  
+            <label> Pick Date</label>
+            <select name Day>
+                <option value="monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+            </select>  <br/>
+            <label> pick Time</label>
+            <select name Time>
+                <option value="11am">11am</option>
+                <option value="2pm">2pm</option>
+                <option value="6pm">6pm</option>
+                <option value="9pm">9pm</option>
+            </select> <br/> <br/>
+  
+
+            <label>Login id : <input type="text"></label> <br/> <br/>
+            <labe> Password : <input type="password" name="pwd"></labe> <br/> <br/>
+            <button>Confirm Booking</button> <br/> <br/>
+
+            <label><input type="reset"></label>
+            
+         </form>
+    </body>
+</head>

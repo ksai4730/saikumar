@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head> <title>ticket booking</title>
+        <body>
+            <h1>fill the details</h1>
+
+            <fieldset>
+                <legend style="color: darkblue;">Details</legend>
+                <label> Name
+                        <input type="text" name="customer-name" required>    
+                    </label> <br/> <br/>
+
+                    <label> Mobile
+                        <input type="tel" name="mobile number" required>
+                    </label> <br/> <br/>
+
+                    <label> Email id
+                        <input type="email" name="email id" required>
+                    </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend style="color: darkblue;">which movie you want watch</legend>
+                <p><label> <input type="radio" name ="movie" required value="bheemla nayak"> Bheemla nayak </label></p>
+                <p><label><input type ="radio" name ="movie" required value="RRR"> RRR </label></p>
+                <p><label><input type ="radio" name="movie" required value="Radhae shyam"> Radhae shyam </label></p>
+            </fieldset>
+            
+            <fieldset> 
+                <legend style="color: darkblue;">how many members you are</legend>
+                <p><label><input type ="checkbox" name ="how many members you are" value="2">2 members</label></p>
+                <p><label><input type ="checkbox" name ="how many members you are" value="2">3 members</label></p>
+                <p><label><input type ="checkbox" name ="how many members you are" value="4">4 members</label></p>
+            </fieldset>
+            
+            <p>
+                <label> select date&time
+                       <input type ="datetime-local" name ="select time" required>
+                </label>
+            </p>
+            
+            
+            <p>
+               <label> Choose loaction
+                   <select id ="choose location" name ="choose location">
+                    <option value="selected">Select One</option>
+                    <option value="rajahmundry">Rajahmundry</option>
+                    <option value="vijayawada">Vijayawada</option>
+                    <option value="vizag">Vizag</option>
+                   </select>
+               </label>
+            </p>
+            
+            <p><button>Confirm Booking</button></p>
+        </body>
+    </head>
+</html>
